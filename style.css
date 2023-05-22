@@ -194,6 +194,14 @@ text-decoration: underline;
   color: var(--black);
   cursor: pointer;
 }
+
+.swiper-slide p{
+  color: #94acd9;
+  font-size: 12px;
+  font-weight: 500;
+  padding-bottom: 10px;
+  padding-top: 5px;
+}
 .home{
   padding-top: 10rem;
   text-align: center;
@@ -265,59 +273,27 @@ text-align: center;
 .icons-container .icons:hover .content p{
   color: #eee;
 }
+/*cont5*/
 
-
-
-
-
-
-
-
-
-
-
-
-/*ceo*/
-.icons-container3 img {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 15px;
-  margin-left: 40%;
-}
-
-.icons-container3 p {
-  text-align: center;
-  font-size: 12px;
-  font-weight: 700;
-  
-}
-
-.icons-container3 h5  {
-  text-align: center;
-}
-.icons-container3 h2  {
-  text-align: center;
-}
-
-
-
-.icons-container3{
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-  display: gri;
+.icons-container5{
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  width: ;
+  display: grid;
   grid-template-columns: repeat(auto-fit, minmax(15rem,1fr));
   gap: 1.5rem;
   background: #eee;
 }
-/*.icons-container .icons{
+.icons-container5 .icons{
   display: flex;
+  width: 220px;
+  height: 200px;
   align-items: center;
   gap: 1.5rem;
   padding: 2rem;
   background: #fff;
   box-shadow: var(--box-shadow);
-  border-radius: .5rem;
+  border-radius: .1rem;
 }
 .icons-container .icons i{
 height: 6rem;
@@ -354,7 +330,110 @@ text-align: center;
 
 .icons-container .icons:hover .content p{
   color: #eee;
-}*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*ceo*/
+.icons-container3 img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  margin-left: 40%;
+}
+
+.icons-container3 p {
+  text-align: center;
+  font-size: 12px;
+  font-weight: 700;
+
+}
+
+.icons-container3 h5  {
+  text-align: center;
+}
+.icons-container3 h2  {
+  text-align: center;
+}
+
+
+
+.icons-container3{
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  display: gri;
+  grid-template-columns: repeat(auto-fit, minmax(15rem,1fr));
+  gap: 1.5rem;
+  background: #eee;
+}
+/*app*/
+.icons-container4{
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15rem,1fr));
+  gap: 1.5rem;
+  background: #4889FF;
+}
+.icons-container4 p{
+  color: yellow;
+  margin-right: 20px;
+}
+
+.icons-container4 img{
+  border-radius: 20px;
+  width: 400px;
+}
+
+.icons-container4 pa{
+  color: #eee;
+  font-size: 17px;
+  font-weight: 700;
+}
+.icons-container4 po{
+  color: #eee;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.icons-container4 .app{
+  margin-top:  10px;
+  color: #eee;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+}
+/*new icon*/
+ /*container*/
+
+
+ 
+
+ 
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+ 
 
 
 
