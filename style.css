@@ -2,13 +2,14 @@
 
 :root{
   --yellow:#f9d806;
-  --light-yellow:#ffee80;
+  --light-yellow:#4889FF;
   --black:#130f40;
   --light-color:#666;
   --border:1rem solid rgba(0, 0 , 0,.1);
   --box-shadow:0  .5rem 1rem rgba(0,0,0,.1);
 }
 *{
+
   font-family: 'Poppins', sans-serif;
   margin: 0;
   box-sizing: border-box;
@@ -57,8 +58,8 @@ z-index:0 ;
   display: inline-block;
   margin-top: 1rem;
   border-radius: .5rem;
-  background: var(--light-yellow);
-  color: var(--black);
+  background: #1c33a1;
+  color: #fff;
   font-weight: 500;
   font-size: 1.7rem;
   cursor: pointer;
@@ -66,7 +67,7 @@ z-index:0 ;
 
 }
 .btn:hover{
-  background: var(--yellow);
+  background: #4889FF;
 
 }
 
@@ -76,7 +77,7 @@ top:0 ;
 left: 0;
 right: 0;
 z-index: 999;
-background: #fff;
+background: #1c33a1;
 display: flex;
 align-items: center;
 justify-content: space-between;
@@ -94,10 +95,10 @@ padding: 3rem 9%;
 .header .navbar a{
   font-size: 1.7rem;
   margin: 0 1rem;
-  color: var(--black);
+  color: #fff;
 }
 .header .navbar a:hover{
-  color: var(--yellow);
+  color: #94acd9;
 }
 .header .btn{
   margin-top: 0;
@@ -199,13 +200,17 @@ text-decoration: underline;
   overflow-x: hidden;
 }
 .home h1{
-  font-size: 7.5vw;
+  font-size: 5vw;
   text-transform: uppercase;
-  color: var(--black);
+  color: #fff;
+  background-color: #1c33a1;
+  padding: 5px;
+  border-radius: 12px .12px  ;
 }
 .home img{
   width: 100%;
   margin: 1rem 0;
+  border-radius: 13px;
 }
 .icons-container{
   padding-top: 5rem;
@@ -231,11 +236,11 @@ line-height: 5rem;
 font-size: 2.5rem;
 border-radius: 50%;
 background: #eee;
-color: var(--black);
+color: #1c33a1;
 text-align: center;
 }
 .icons-container .icons .content h3{
-  color:var(--yellow) ;
+  color:#1c33a1 ;
   font-size: 2.5rem;
 }
 
@@ -245,13 +250,13 @@ text-align: center;
 }
 
 .icons-container .icons:hover{
-   background: var(--black);
+   background: #1c33a1;
 }
 
 
 
 .icons-container .icons:hover i{
-  background: var(--yellow);
+  background: #4889FF;
 }
 .icons-container .icons:hover .content h3{
   color: #fff;
@@ -260,6 +265,176 @@ text-align: center;
 .icons-container .icons:hover .content p{
   color: #eee;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+/*ceo*/
+.icons-container3 img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  margin-left: 40%;
+}
+
+.icons-container3 p {
+  text-align: center;
+  font-size: 12px;
+  font-weight: 700;
+  
+}
+
+.icons-container3 h5  {
+  text-align: center;
+}
+.icons-container3 h2  {
+  text-align: center;
+}
+
+
+
+.icons-container3{
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  display: gri;
+  grid-template-columns: repeat(auto-fit, minmax(15rem,1fr));
+  gap: 1.5rem;
+  background: #eee;
+}
+/*.icons-container .icons{
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 2rem;
+  background: #fff;
+  box-shadow: var(--box-shadow);
+  border-radius: .5rem;
+}
+.icons-container .icons i{
+height: 6rem;
+width: 6rem;
+line-height: 5rem;
+font-size: 2.5rem;
+border-radius: 50%;
+background: #eee;
+color: #1c33a1;
+text-align: center;
+}
+.icons-container .icons .content h3{
+  color:#1c33a1 ;
+  font-size: 2.5rem;
+}
+
+.icons-container .icons .content p{
+  color:var(--black) ;
+  font-size: 1.5rem;
+}
+
+.icons-container .icons:hover{
+   background: #1c33a1;
+}
+
+
+
+.icons-container .icons:hover i{
+  background: #4889FF;
+}
+.icons-container .icons:hover .content h3{
+  color: #fff;
+}
+
+.icons-container .icons:hover .content p{
+  color: #eee;
+}*/
+
+
+
+/*icon container2*/
+
+.icons-container2{
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15rem,1fr));
+  gap: 1.5rem;
+  background: #1c33a1;
+}
+.icons-container2 .icons{
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 2rem;
+  background: #fff;
+  box-shadow: var(--box-shadow);
+  border-radius: 30px  12px 26px;
+}
+.icons-container2 .icons i{
+height: 6rem;
+width: 6rem;
+line-height: 5rem;
+font-size: 2.5rem;
+border-radius: 50%;
+background: #eee;
+color: #1c33a1;
+text-align: center;
+}
+.icons-container2 .icons .content h3{
+  color:#1c33a1 ;
+  font-size: 2.5rem;
+}
+
+.icons-container2 .icons .content p{
+  color:var(--black) ;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.icons-container2 .icons:hover{
+   background: #eee;
+}
+
+
+.swiper-slide img{
+  border-radius: 15px;
+}
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .vehicles .vehicles-slider{
   padding-bottom: 5rem;
 
@@ -418,7 +593,7 @@ color: #fff;}
   .newsletter{
     padding:6rem 2rem ;
     text-align: center;
-    background: url(./jomi.jpg) no-repeat;
+    background: url(./bann.jpg) no-repeat;
     background-position: center;
     background-size: cover;
   }
@@ -556,6 +731,50 @@ color: #fff;}
       height: 15rem;
       resize: none;
 }
+.footer{
+  background: #1c33a1;
+}
+
+.footer .box-container{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  gap: 1.5rem;
+}
+
+.footer .box-container .box h3{
+  color: #4889FF;
+  font-size: 2.2rem;
+  padding: 1rem 0;
+}
+
+.footer .box-container .box a{
+  color: #fff;
+  font-size: 1.4rem;
+  display: block;
+  padding: 1rem 0;
+}
+
+.footer .box-container .box a i{
+  padding-right:.5rem ;
+  color: #fff;
+}
+.footer .box-container .box a:hover i{
+  padding-right:2rem ;
+}
+.footer .credit{
+text-align: center;
+border-top: var (--border);
+padding: 1rem;
+padding-top: 2.5rem;
+margin-top:2rem ;
+font-size:2rem ;
+}
+
+
+
+
+
+
 
 
 
